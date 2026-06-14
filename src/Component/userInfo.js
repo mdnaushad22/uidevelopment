@@ -8,4 +8,5 @@ function userInfo() {
         email: userEmail
     };
 }
+
 export default userInfo;
