@@ -1,0 +1,6 @@
+export const ADD_USER="ADD_USER"
+export const SET_LOGGED_USER='SET_LOGGED_USER';
+export const USER_LIST='USER_LIST';
+export const SET_USER_DATA='SET_USER_DATA';
+export const LOGIN_USER='LOGIN_USER';
+export const RESET_LOGOUT_USER='RESET_LOGOUT_USER';

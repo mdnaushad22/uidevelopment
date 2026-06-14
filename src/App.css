@@ -1,0 +1,80 @@
+
+.nav-ul{
+  display: flex;
+  margin: 5px;
+  padding: 0px;
+  background-color: teal;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+.nav-align{
+  text-align: right;
+  display: ruby-text;
+  margin: 5px;
+  padding: 0px;
+  background-color: teal;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+.nav-ul,.nav-align li{
+  list-style: none;
+  margin: 3px;
+}
+.btnsign{
+  margin-left: 25px;
+}
+.nav-ul,.nav-align li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.regdiv{
+  margin-left: 30%;
+}
+.inputfield{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  border: solid 1px black;
+  border-radius: 3px;
+}
+.footer{
+  text-align: center;
+  position: absolute;
+  background: teal;
+  width: 100%;
+  border-radius: 5px;
+  bottom: 0px;
+  height: 10%;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
