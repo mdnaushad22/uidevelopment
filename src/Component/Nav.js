@@ -10,8 +10,8 @@ const Nav = () => {
     localStorage.clear();
     dispatch(resetLogoutUser());
     navigate("/signup");
-
   };
+
   return (
     <div>
       {auth ? (
